@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect x="0" y="0" width="900" height="520" fill="#ffffff"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111">Esquematico Ducha Inteligente (Sin Valvula)</text>
+
+  <rect x="40" y="80" width="180" height="360" rx="8" fill="#eef4ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="130" y="108" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Arduino Uno</text>
+  <text x="54" y="150" font-family="Arial, sans-serif" font-size="13" fill="#111">5V</text>
+  <text x="54" y="190" font-family="Arial, sans-serif" font-size="13" fill="#111">GND</text>
+  <text x="165" y="230" font-family="Arial, sans-serif" font-size="13" fill="#111">Pin 2 (FLOW)</text>
+  <text x="165" y="280" font-family="Arial, sans-serif" font-size="13" fill="#111">Pin 7 (BUZZ)</text>
+  <text x="165" y="330" font-family="Arial, sans-serif" font-size="13" fill="#111">Pin 8 (GREEN)</text>
+  <text x="165" y="375" font-family="Arial, sans-serif" font-size="13" fill="#111">Pin 9 (YELL)</text>
+  <text x="165" y="420" font-family="Arial, sans-serif" font-size="13" fill="#111">Pin 10 (RED)</text>
+
+  <rect x="330" y="120" width="210" height="125" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="435" y="146" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#065f46">Sensor Flujo YF-S201</text>
+  <text x="344" y="172" font-family="Arial, sans-serif" font-size="12" fill="#111">VCC (Rojo) -> 5V</text>
+  <text x="344" y="195" font-family="Arial, sans-serif" font-size="12" fill="#111">GND (Negro) -> GND</text>
+  <text x="344" y="218" font-family="Arial, sans-serif" font-size="12" fill="#111">Signal (Amarillo) -> Pin 2</text>
+
+  <line x1="220" y1="146" x2="330" y2="168" stroke="#dc2626" stroke-width="2"/>
+  <line x1="220" y1="186" x2="330" y2="191" stroke="#374151" stroke-width="2"/>
+  <line x1="220" y1="226" x2="330" y2="214" stroke="#2563eb" stroke-width="2"/>
+
+  <rect x="330" y="265" width="210" height="55" rx="8" fill="#fefce8" stroke="#b45309" stroke-width="2"/>
+  <text x="435" y="290" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">Buzzer -> Pin 7 y GND</text>
+  <line x1="220" y1="276" x2="330" y2="290" stroke="#b45309" stroke-width="2"/>
+
+  <rect x="330" y="340" width="520" height="120" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <text x="344" y="362" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111">Pin 8 -> Res -> LED Verde -> GND</text>
+  <text x="344" y="395" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111">Pin 9 -> Res -> LED Amarillo -> GND</text>
+  <text x="344" y="428" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#111">Pin 10 -> Res -> LED Rojo -> GND</text>
+  <line x1="220" y1="326" x2="330" y2="358" stroke="#16a34a" stroke-width="2"/>
+  <line x1="220" y1="371" x2="330" y2="391" stroke="#ca8a04" stroke-width="2"/>
+  <line x1="220" y1="416" x2="330" y2="424" stroke="#dc2626" stroke-width="2"/>
+</svg>
